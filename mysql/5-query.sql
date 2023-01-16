@@ -1,0 +1,4 @@
+SELECT DEPARTMENT_NAME, COUNT(employees.EMPLOYEE_ID)
+FROM departments
+INNER JOIN employees ON departments.DEPARTMENT_ID = employees.DEPARTMENT_ID
+GROUP BY departments.DEPARTMENT_ID

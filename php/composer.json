@@ -1,0 +1,12 @@
+{
+    "name": "odds_scanner/php",
+    "description": "Odds Scanner Challenge",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "OddsScanner\\PHP\\": "src/",
+            "OddsScanner\\PHP\\Libraries\\": "src/Libraries"
+        }
+    },
+    "require": {}
+}
